@@ -10,5 +10,6 @@ public class LoginController {
     @FXML
     protected void onHelloButtonClick() {
         welcomeText.setText("Welcome to JavaFX Application!");
+        System.out.println("Ireber has been here. ");
     }
 }
